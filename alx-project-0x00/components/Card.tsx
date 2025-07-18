@@ -1,6 +1,6 @@
 import Image from "next/image"
-import HOUSE_IMAGE from "@/public/assets/house.png"
-import STAR_IMAGE from "@/public/assets/star.png"
+import HOUSE_IMAGE from "@/public/assets/images/house.png"
+import STAR_IMAGE from "@/public/assets/images/star.png"
 import React from "react"
 import Pill from "./Pill"
 
@@ -13,7 +13,7 @@ const Card: React.FC = () => {
       <div className="p-2 flex gap-2 mt-2">
         <Pill title="Top Villa" />
         <Pill title="Self CheckIn" />
-        <Pill title="Free Reschedule" />
+        <Pill title="Free Reschedule" /> 
       </div>
       <div className="flex items-center justify-between">
         <div>
